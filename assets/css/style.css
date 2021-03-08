@@ -53,7 +53,7 @@ svg{
     width: 100%;
     margin: 0;
     padding: 0;
-    margin-top: -16%;
+    margin-top: -19%;
     position: inherit;
 }
 @keyframes spin_01{
@@ -116,7 +116,8 @@ svg{
     padding: 15px 0;
 }
 .sticky{
-    background-color: var(--main-color);
+    background-color: #7857feb4;
+    box-shadow: var(--shadow-black-200);
 }
 
 .navbar > .container{
@@ -170,7 +171,7 @@ svg{
     min-height: 110vh;
     padding: 100px 0;
     background-color: var(--main-color);
-    border-radius: 0 0 100px 100px;
+    border-radius: 0 0 0px 0px;
 }
 .home-text h1{
     font-size: 45px;
@@ -444,7 +445,50 @@ svg{
     margin-left: 41%;
 }
 
-
+/* Contact Section */
+.contact{
+    margin-top: 100px;
+}
+.contact-info h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+.contact-info{
+    position: relative;
+    padding-left: 50px;
+    margin: 0 0 20px;
+}
+.contact-info i{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 0;
+    border-radius: 50%;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--main-color);
+}
+.contact-info p{
+    font-size: 14px;
+    color: #302f2f;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.contact-form .form-group{
+    margin-bottom: 20px;
+}
+.contact-form .form-control{
+    height: 50px;
+    border: 1px solid transparent;
+    box-shadow: var(--shadow-black-200);
+    border-radius: 10px;
+}
+.contact-form textarea.form-control{
+    height: 100px;
+    padding-top: 10px;
+}
 /* Footer Section */
 .wave-footer{
     width: 100%;
@@ -512,4 +556,99 @@ svg{
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 300;
+}
+
+
+@media (max-width: 460px){
+    .home .home-btn{
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+    .home .home-text h1{
+        font-size: 36px;
+    }
+    .home .home-text p{
+        font-size: 16px;
+    }
+     .about-permasa-img{
+        margin-bottom: 40px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .about-btn{
+        margin-bottom: 40px;
+    }
+    .member-btn .btn-1{
+        margin-left: 28%;
+    }
+    .footer-col{
+        margin-bottom: 38px;
+    }
+}
+
+@media (max-width: 484px){
+    .home .home-text h1{
+        font-size: 36px;
+    }
+    .home .home-text p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 760px){
+    .home .home-btn{
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+    .home .home-text h1{
+        font-size: 43px;
+    }
+    .home .home-text p{
+        font-size: 18px;
+    }
+     .about-permasa-img{
+        margin-bottom: 40px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .about-btn{
+        margin-bottom: 40px;
+    }
+    .member-btn .btn-1{
+        margin-left: 28%;
+    }
+    .footer-col{
+        margin-bottom: 38px;
+    }
+}
+
+@media (max-width: 990px){
+    .home .home-btn{
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+    .home .home-text h1{
+        font-size: 36px;
+    }
+    .home .home-text p{
+        font-size: 15px;
+    }
+     .about-permasa-img{
+        margin-bottom: 40px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .about-btn{
+        margin-bottom: 40px;
+    }
+    .member-btn .btn-1{
+        margin-left: 28%;
+    }
+    .footer-col{
+        margin-bottom: 38px;
+    }
 }

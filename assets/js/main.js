@@ -41,4 +41,16 @@ $(document).ready(function(){
             }
         }
     });
+
+    $.scrollIt({
+        topOffset: -50 
+    });
+
+    //AOS Section Script
+    AOS.init(); 
 })
+
+
+          
+
+
